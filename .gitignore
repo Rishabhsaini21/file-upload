@@ -18,6 +18,7 @@ go.work
 go.work.sum
 # Environment files
 env
+.env
 # IDE/Editor settings
 idea/
 vscode/

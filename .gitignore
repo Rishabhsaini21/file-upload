@@ -22,3 +22,6 @@ env
 # IDE/Editor settings
 idea/
 vscode/
+#user data
+**/uploads/
+*.sqlite

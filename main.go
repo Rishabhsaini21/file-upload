@@ -1,6 +1,10 @@
 package main
 
 import (
+
+	"file-upload/routes"
+	"file-upload/utils"
+
 	"fmt"
 	"os"
 
@@ -12,9 +16,11 @@ func main() {
 	
 	fmt.Println("Env Loading")
 	godotenv.Load()
+	utils.ConnectDB()
 	fmt.Println("Env Loaded")
 	app := gin.Default()
 
+	routes.SetupRoutes(app)
 
 	PORT := os.Getenv("PORT")
 

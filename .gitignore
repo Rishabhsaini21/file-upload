@@ -1,4 +1,3 @@
-#gitignore file
 # Binaries for programs and plugins
 *.exe
 *.dll
@@ -25,3 +24,4 @@ vscode/
 #user data
 **/uploads/
 *.sqlite
+*.db

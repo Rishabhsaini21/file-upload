@@ -21,7 +21,13 @@ env
 # IDE/Editor settings
 idea/
 vscode/
+*.swp
+#OS specific
+*.DS_Store
 #user data
 **/uploads/
 *.sqlite
 *.db
+#temporary files
+*.tmp
+*.log
